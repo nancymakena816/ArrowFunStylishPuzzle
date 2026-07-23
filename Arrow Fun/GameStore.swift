@@ -929,16 +929,16 @@ final class GameSession: ObservableObject {
                 position = next
                 path.append(next)
             case .wall:
-                return TravelPlan(outcome: .blocked(message: "A wall blocks the lane."))
+                return TravelPlan(outcome: .blocked(message: "A wall blocks the lane"))
             case .gate:
                 if !isGateOpen(tile) {
-                    return TravelPlan(outcome: .blocked(message: "The gate is still closed."))
+                    return TravelPlan(outcome: .blocked(message: "The gate is still closed"))
                 }
                 position = next
                 path.append(next)
             case .lock:
                 if !isLockOpen(tile) {
-                    return TravelPlan(outcome: .blocked(message: "The lock needs more momentum."))
+                    return TravelPlan(outcome: .blocked(message: "The lock needs more momentum"))
                 }
                 position = next
                 path.append(next)
