@@ -143,4 +143,3 @@ The first release should feel like a complete casual puzzle game, not a prototyp
 - Offline campaign and save flow tested on device.
 - Review notes prepared.
 - Real-device testing completed.
-- No copyrighted or competitor-derived assets.
