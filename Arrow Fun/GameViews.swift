@@ -1392,7 +1392,7 @@ struct CampaignScoreboardView: View {
             summaries: summaries,
             totalScore: totalScore,
             emptyTitle: "No campaign scores yet",
-            emptyMessage: "Finish a level to see its score, timing, moves, and total progress here.",
+            emptyMessage: "Finish a level to see its score, timing, moves, and total progress here",
             onDeleteLevel: { summary in
                 store.deleteCampaignScore(for: summary.levelIndex)
             },
