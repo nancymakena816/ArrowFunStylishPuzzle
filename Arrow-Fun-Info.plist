@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>skillzSDK</key>
+	<dict>
+		<key>allowExit</key>
+		<false/>
+		<key>environment</key>
+		<string>production</string>
+		<key>gameId</key>
+		<string>103057</string>
+		<key>orientation</key>
+		<string>portrait</string>
+	</dict>
+</dict>
+</plist>
