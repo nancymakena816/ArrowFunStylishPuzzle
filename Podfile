@@ -3,7 +3,7 @@ platform :ios, '17.0'
 use_frameworks!
 
 target 'Arrow Fun' do
-  pod 'Skillz', '2025.1.546'
+  pod 'Skillz', '2026.0.14'
 end
 
 post_install do |installer|
