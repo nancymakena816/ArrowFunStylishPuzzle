@@ -269,4 +269,3 @@ iPad:
 - Audio and haptics can be disabled.
 - Visual design is original and does not resemble the reference app closely.
 - Accessibility labels exist for major controls.
-- Screenshots accurately represent the app.
