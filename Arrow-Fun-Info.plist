@@ -7,6 +7,11 @@
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<false/>
 	</dict>
+<key>NSCalendarsUsageDescription</key>
+<string>This app does not access your calendar. This permission may be requested by a third-party SDK if required.</string>
+
+<key>NSBluetoothAlwaysUsageDescription</key>
+<string>This app does not use Bluetooth features. This permission may be requested by a third-party SDK if required.</string>
 	<key>skillzSDK</key>
 	<dict>
 		<key>allowExit</key>
